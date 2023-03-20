@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.auth0</groupId>
-  <artifactId>java-jwt</artifactId>
-  <version>4.0.1-SNAPSHOT</version>
+  <artifactId>java-jwt-dnxt</artifactId>
+  <version>4.0.1</version>
 
   <repositories>
     <repository>
@@ -18,11 +18,11 @@
   <distributionManagement>
     <snapshotRepository>
       <id>dnxt-nexus-snapshots</id>
-      <url>https://nexus.dnxt.pt/repository/wallet-snapshots</url>
+      <url>https://nexus.dnxt.pt/repository/maven-snapshots</url>
     </snapshotRepository>
     <repository>
       <id>dnxt-nexus-releases</id>
-      <url>https://nexus.dnxt.pt/repository/wallet-releases</url>
+      <url>https://nexus.dnxt.pt/repository/maven-releases</url>
     </repository>
   </distributionManagement>
 
@@ -63,16 +63,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
-  <!--
-  implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.2.2'
-
-    testImplementation 'org.bouncycastle:bcprov-jdk15on:1.70'
-    testImplementation 'junit:junit:4.13.2'
-    testImplementation 'net.jodah:concurrentunit:0.4.6'
-    testImplementation 'org.hamcrest:hamcrest:2.2'
-    testImplementation 'org.mockito:mockito-core:4.4.0'
-  -->
 
   <build>
     <sourceDirectory>lib/src/main/java</sourceDirectory>
