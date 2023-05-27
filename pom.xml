@@ -6,23 +6,23 @@
 
   <repositories>
     <repository>
-      <id>dnxt-nexus-snapshots</id>
-      <url>https://nexus.dnxt.pt/repository/wallet-snapshots</url>
+      <id>nexus-snapshots</id>
+      <url>https://srv-artifactory-prd-01.incm.int/repository/maven-MobileID-snapshots</url>
     </repository>
     <repository>
-      <id>dnxt-nexus-releases</id>
-      <url>https://nexus.dnxt.pt/repository/wallet-release</url>
+      <id>nexus-releases</id>
+      <url>https://srv-artifactory-prd-01.incm.int/repository/maven-MobileID-release</url>
     </repository>
   </repositories>
 
   <distributionManagement>
     <snapshotRepository>
-      <id>dnxt-nexus-snapshots</id>
-      <url>https://nexus.dnxt.pt/repository/maven-snapshots</url>
+      <id>nexus-snapshots</id>
+      <url>https://srv-artifactory-prd-01.incm.int/repository/maven-MobileID-snapshots</url>
     </snapshotRepository>
     <repository>
-      <id>dnxt-nexus-releases</id>
-      <url>https://nexus.dnxt.pt/repository/maven-releases</url>
+      <id>nexus-releases</id>
+      <url>https://srv-artifactory-prd-01.incm.int/repository/maven-MobileID-release</url>
     </repository>
   </distributionManagement>
 
